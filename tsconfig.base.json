@@ -15,11 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@banking/dashboard": ["libs/banking/dashboard/src/index.ts"],
-      "@banking/dashboard/feature": [
-        "libs/banking/dashboard/feature/src/index.ts"
-      ],
-      "@banking/dashboard/util": ["libs/banking/dashboard/util/src/index.ts"]
+      "@banking/dashboard": ["libs/banking/dashboard/index.ts"],
+      "@banking/dashboard/feature": ["libs/banking/dashboard/feature/index.ts"],
+      "@banking/dashboard/util": ["libs/banking/dashboard/util/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

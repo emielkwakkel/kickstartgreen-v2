@@ -1,0 +1,1 @@
+export { BankingDashboardComponent } from './src/banking-dashboard/banking-dashboard.component';
