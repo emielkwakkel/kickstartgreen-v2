@@ -9,6 +9,6 @@ export const appRoutes: Route[] = [
     {
         path: 'banking',
         loadComponent: () =>
-            import('@banking/dashboard/feature').then((m) => m.BankingDashboardComponent)
+            import('@banking').then((m) => m.BankingDashboardComponent)
     }
 ];
