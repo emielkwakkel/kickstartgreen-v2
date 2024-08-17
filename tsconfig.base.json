@@ -19,7 +19,8 @@
       "@banking/dashboard": ["libs/banking/dashboard/index.ts"],
       "@banking/dashboard/feature": ["libs/banking/dashboard/feature/index.ts"],
       "@banking/dashboard/util": ["libs/banking/dashboard/util/index.ts"],
-      "@shared": ["libs/shared/domain/src/index.ts"]
+      "@shared": ["libs/shared/domain/src/index.ts"],
+      "@shared/ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
