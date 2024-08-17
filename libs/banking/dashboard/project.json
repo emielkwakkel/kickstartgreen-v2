@@ -2,9 +2,9 @@
   "name": "banking-dashboard",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/banking/dashboard/src",
-  "prefix": "lib",
+  "prefix": "banking",
   "projectType": "library",
-  "tags": [],
+  "tags": ["type:feature", "domain:banking"],
   "targets": {
     "build": {
       "executor": "@nx/angular:ng-packagr-lite",
