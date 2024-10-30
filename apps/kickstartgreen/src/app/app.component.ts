@@ -6,8 +6,7 @@ import { SharedUiModule } from '@shared';
   standalone: true,
   imports: [RouterModule, SharedUiModule],
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  templateUrl: './app.component.html'
 })
 export class AppComponent {
   title = 'kickstartgreen';
