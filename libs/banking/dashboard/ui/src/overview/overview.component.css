@@ -1,0 +1,22 @@
+h4 {
+  margin: 10px 0 0 0;
+}
+.mat-cell {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+.mat-column-type {
+  flex: 0 0 50px !important;
+  width: 50px !important;
+}
+.mat-column-total {
+  flex: 0 0 100px !important;
+  width: 100px !important;
+}
