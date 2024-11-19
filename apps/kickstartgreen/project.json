@@ -21,7 +21,10 @@
             "input": "apps/kickstartgreen/public"
           }
         ],
-        "styles": ["apps/kickstartgreen/src/styles.css"],
+        "styles": [
+          "@angular/material/prebuilt-themes/azure-blue.css",
+          "apps/kickstartgreen/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
