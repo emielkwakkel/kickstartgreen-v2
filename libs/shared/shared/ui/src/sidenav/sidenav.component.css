@@ -1,0 +1,12 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 200px;
+  transition: all 2s;
+}
+
+mat-sidenav-container mat-sidenav  mat-toolbar{
+  background-color: #222;
+}
