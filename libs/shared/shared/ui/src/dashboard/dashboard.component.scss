@@ -1,0 +1,54 @@
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+mat-grid-list {
+  height: calc(100vh - 128px);
+}
+.mat-column-type {
+  word-wrap: break-word !important;
+  white-space: unset !important;
+  flex: 0 0 5% !important;
+  width: 5% !important;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.left-40 {
+  left: calc((40% - 0.5px + 1px) * 1) !important;
+}
+.left-50 {
+  left: calc((50% - 0.5px + 1px) * 1) !important;
+}
+.left-60 {
+  left: calc((60% - 0.5px + 1px) * 1) !important;
+}
+.left-70 {
+  left: calc((70% - 0.5px + 1px) * 1) !important;
+}
+
+.width-30 {
+  width: calc((30% - 0.5px) * 1 + 0px) !important;
+}
+.width-40 {
+  width: calc((40% - 0.5px) * 1 + 0px) !important;
+}
+.width-50 {
+  width: calc((50% - 0.5px) * 1 + 0px) !important;
+}
+.width-60 {
+  width: calc((60% - 0.5px) * 1 + 0px) !important;
+}

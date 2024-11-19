@@ -1,7 +1,7 @@
 {
   "name": "banking-dashboard",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/banking/dashboard/src",
+  "sourceRoot": "libs/banking",
   "prefix": "banking",
   "projectType": "library",
   "tags": ["type:feature", "domain:banking"],
